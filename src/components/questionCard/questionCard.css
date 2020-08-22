@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+.bg {
+  /* The image used */
+  background-image: url("https://cdn.pixabay.com/photo/2016/10/12/19/54/homework-1735644_960_720.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main{
+  background-color: #ed9d5a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+}
+.startbtn{
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: -60px;
+  width: 100px;
+  background-color:#a84c32;
+  color: blanchedalmond;
+  text-align: center;
+  font-weight: 600;
+}
+
+.question{
+  text-transform: uppercase;
+  font-size: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 12px;
+  color: #a84c32;
+  /* text-align: center; */
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+}
+.timer{
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+.radio-button{
+  width: 20px;
+  height: 16px;
+  cursor: pointer;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Vidaloka', serif;
+}
+.attempt-button{
+  width: 200px;
+}
+.quizForm{
+    color: #a84c32;
+    max-width: 90%;
+}
+button{
+  width: 100%;
+  height:35px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color:#ed9a6d;
+  color: #a84c32;
+  padding-left: 10px;
+  padding-right: 10px;
+}
